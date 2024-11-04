@@ -10,3 +10,6 @@ class Quotes(scrapy.Item):
     author = scrapy.Field()
     text = scrapy.Field()
     tags = scrapy.Field()
+    born_date = scrapy.Field()
+    born_place = scrapy.Field()
+    description = scrapy.Field()
